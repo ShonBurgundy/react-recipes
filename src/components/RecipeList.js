@@ -17,9 +17,8 @@ function RecipeList(props) {
     </React.Fragment>
   );
 }
-
 RecipeList.propTypes = {
-  recipeList: Proptypes.object,
+  recipeList: PropTypes.object,
   onRecipeSelection: PropTypes.func
 };
 
